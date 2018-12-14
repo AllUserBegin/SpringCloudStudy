@@ -6,11 +6,12 @@
     <modules>
         <module>microservice-simple-provider-user</module>
         <module>microservice-simple-consumer-movie</module>
+        <module>microservice-discovery-eureka</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.1.RELEASE</version>
+        <version>1.5.9.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.itmuch.cloud</groupId>
