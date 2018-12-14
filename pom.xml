@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>microservice-simple-provider-user</module>
+        <module>microservice-simple-consumer-movie</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
