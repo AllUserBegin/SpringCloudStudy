@@ -14,6 +14,7 @@
         <module name="microservice-discovery-eureka-authenticating" />
         <module name="microservice-discovery-eureka-ha" />
         <module name="microservice-provider-user" />
+        <module name="microservice-provider-user-with-auth" />
         <module name="microservice-simple-consumer-movie" />
         <module name="microservice-simple-provider-user" />
       </profile>
@@ -28,6 +29,7 @@
       <module name="microservice-discovery-eureka-authenticating" target="1.8" />
       <module name="microservice-discovery-eureka-ha" target="1.8" />
       <module name="microservice-provider-user" target="1.8" />
+      <module name="microservice-provider-user-with-auth" target="1.8" />
       <module name="microservice-simple-consumer-movie" target="1.8" />
       <module name="microservice-simple-provider-user" target="1.8" />
     </bytecodeTargetLevel>

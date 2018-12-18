@@ -14,12 +14,12 @@ import feign.RequestLine;
  */
 @FeignClient(name = "microservice-provider-user", configuration = FeignConfiguration.class)
 public interface UserFeignClient {
-    /**
-     * 使用feign自带的注解@RequestLine
-     * @see https://github.com/OpenFeign/feign
-     * @param id 用户id
-     * @return 用户信息
-     */
-    @RequestLine("GET /{id}")
-    public User findById(@Param("id") Long id);
+  /**
+   * 使用feign自带的注解@RequestLine
+   * @see https://github.com/OpenFeign/feign
+   * @param id 用户id
+   * @return 用户信息
+   */
+  @RequestLine("GET /{id}")
+  public User findById(@Param("id") Long id);
 }

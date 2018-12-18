@@ -14,24 +14,21 @@ import com.itmuch.cloud.study.user.entity.User;
 
 @RestController
 public class MovieController {
-
-  private  static  final Logger logger= LoggerFactory.getLogger(MovieController.class);
+  private static final Logger LOGGER = LoggerFactory.getLogger(MovieController.class);
   @Autowired
   private RestTemplate restTemplate;
-
   @Autowired
   private LoadBalancerClient loadBalancerClient;
 
   @GetMapping("/user/{id}")
   public User findById(@PathVariable Long id) {
-    User entity=  this.restTemplate.getForObject("http://microservice-provider-user/" + id, User.class);
-    return  entity;
+    return this.restTemplate.getForObject("http://microservice-provider-user/" + id, User.class);
   }
 
-  @GetMapping("/log-user-intance")
-  public  void  logUserIntance()
-  {
-    ServiceInstance  serviceInstance=this.loadBalancerClient.choose("microservice-provider-user");
-    MovieController.logger.info("{}:{}:{}",serviceInstance.getServiceId(),serviceInstance.getHost(),serviceInstance.getPort());
+  @GetMapping("/log-user-instance")
+  public void logUserInstance() {
+    ServiceInstance serviceInstance = this.loadBalancerClient.choose("microservice-provider-user");
+    // 打印当前选择的是哪个节点
+    MovieController.LOGGER.info("{}:{}:{}", serviceInstance.getServiceId(), serviceInstance.getHost(), serviceInstance.getPort());
   }
 }
