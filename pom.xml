@@ -4,9 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
+        <module>microservice-discovery-eureka-authenticating</module>
+        <module>microservice-discovery-eureka-ha</module>
         <module>microservice-simple-provider-user</module>
         <module>microservice-simple-consumer-movie</module>
         <module>microservice-discovery-eureka</module>
+        <module>microservice-consumer-movie-ribbon</module>
+        <module>microservice-consumer-movie-feign</module>
+        <module>microservice-consumer-movie-feign-customizing</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
