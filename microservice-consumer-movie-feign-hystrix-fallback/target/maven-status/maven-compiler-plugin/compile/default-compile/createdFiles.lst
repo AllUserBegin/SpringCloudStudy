@@ -1,0 +1,4 @@
+com\itmuch\cloud\study\ConsumerMovieApplication.class
+com\itmuch\cloud\study\user\entity\User.class
+com\itmuch\cloud\study\user\controller\MovieController.class
+com\itmuch\cloud\study\user\feign\UserFeignClient.class

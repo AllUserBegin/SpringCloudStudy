@@ -9,14 +9,16 @@
         <module name="microservice-consumer-movie" />
         <module name="microservice-consumer-movie-feign" />
         <module name="microservice-consumer-movie-feign-customizing" />
+        <module name="microservice-consumer-movie-feign-hystrix-fallback" />
+        <module name="microservice-consumer-movie-feign-hystrix-fallback-factory" />
+        <module name="microservice-consumer-movie-feign-logging" />
+        <module name="microservice-consumer-movie-feign-manual" />
         <module name="microservice-consumer-movie-ribbon" />
+        <module name="microservice-consumer-movie-ribbon-hystrix" />
         <module name="microservice-discovery-eureka" />
         <module name="microservice-discovery-eureka-authenticating" />
         <module name="microservice-discovery-eureka-ha" />
         <module name="microservice-provider-user" />
-        <module name="microservice-provider-user-with-auth" />
-        <module name="microservice-simple-consumer-movie" />
-        <module name="microservice-simple-provider-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,7 +26,12 @@
       <module name="microservice-consumer-movie" target="1.8" />
       <module name="microservice-consumer-movie-feign" target="1.8" />
       <module name="microservice-consumer-movie-feign-customizing" target="1.8" />
+      <module name="microservice-consumer-movie-feign-hystrix-fallback" target="1.8" />
+      <module name="microservice-consumer-movie-feign-hystrix-fallback-factory" target="1.8" />
+      <module name="microservice-consumer-movie-feign-logging" target="1.8" />
+      <module name="microservice-consumer-movie-feign-manual" target="1.8" />
       <module name="microservice-consumer-movie-ribbon" target="1.8" />
+      <module name="microservice-consumer-movie-ribbon-hystrix" target="1.8" />
       <module name="microservice-discovery-eureka" target="1.8" />
       <module name="microservice-discovery-eureka-authenticating" target="1.8" />
       <module name="microservice-discovery-eureka-ha" target="1.8" />
