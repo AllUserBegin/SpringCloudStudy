@@ -20,6 +20,7 @@
         <module name="microservice-discovery-eureka" />
         <module name="microservice-discovery-eureka-authenticating" />
         <module name="microservice-discovery-eureka-ha" />
+        <module name="microservice-geteway-zuul" />
         <module name="microservice-hystrix-dashboard" />
         <module name="microservice-hystrix-turbine" />
         <module name="microservice-hystrix-turbine-mq" />
@@ -42,6 +43,7 @@
       <module name="microservice-discovery-eureka" target="1.8" />
       <module name="microservice-discovery-eureka-authenticating" target="1.8" />
       <module name="microservice-discovery-eureka-ha" target="1.8" />
+      <module name="microservice-geteway-zuul" target="1.8" />
       <module name="microservice-hystrix-dashboard" target="1.8" />
       <module name="microservice-hystrix-turbine" target="1.8" />
       <module name="microservice-hystrix-turbine-mq" target="1.8" />
@@ -56,6 +58,7 @@
       <module name="com.itmuch.cloud" options="-parameters" />
       <module name="microservice-consumer-movie" options="" />
       <module name="microservice-discovery-eureka" options="" />
+      <module name="microservice-geteway-zuul" options="" />
       <module name="microservice-hystrix-dashboard" options="" />
       <module name="microservice-hystrix-turbine" options="" />
       <module name="microservice-provider-user" options="" />

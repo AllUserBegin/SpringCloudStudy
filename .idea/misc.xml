@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/microservice-consumer-movie/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-hystrix-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-geteway-zuul/pom.xml" />
       </list>
     </option>
   </component>
