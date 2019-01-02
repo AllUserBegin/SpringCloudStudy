@@ -22,6 +22,8 @@
         <module>microservice-consumer-movie-ribbon-hystrix-turbine-mq</module>
         <module>microservice-hystrix-turbine-mq</module>
         <module>microservice-geteway-zuul</module>
+        <module>microservice-geteway-zuul-fallback</module>
+        <module>microservice-geteway-zuul-aggregation</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

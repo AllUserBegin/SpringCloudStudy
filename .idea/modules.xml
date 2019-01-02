@@ -18,6 +18,8 @@
       <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka-authenticating/microservice-discovery-eureka-authenticating.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka-authenticating/microservice-discovery-eureka-authenticating.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka-ha/microservice-discovery-eureka-ha.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka-ha/microservice-discovery-eureka-ha.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-geteway-zuul/microservice-geteway-zuul.iml" filepath="$PROJECT_DIR$/microservice-geteway-zuul/microservice-geteway-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-geteway-zuul-aggregation/microservice-geteway-zuul-aggregation.iml" filepath="$PROJECT_DIR$/microservice-geteway-zuul-aggregation/microservice-geteway-zuul-aggregation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-geteway-zuul-fallback/microservice-geteway-zuul-fallback.iml" filepath="$PROJECT_DIR$/microservice-geteway-zuul-fallback/microservice-geteway-zuul-fallback.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-hystrix-dashboard/microservice-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/microservice-hystrix-dashboard/microservice-hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-hystrix-turbine/microservice-hystrix-turbine.iml" filepath="$PROJECT_DIR$/microservice-hystrix-turbine/microservice-hystrix-turbine.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-hystrix-turbine-mq/microservice-hystrix-turbine-mq.iml" filepath="$PROJECT_DIR$/microservice-hystrix-turbine-mq/microservice-hystrix-turbine-mq.iml" />

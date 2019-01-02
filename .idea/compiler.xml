@@ -21,6 +21,8 @@
         <module name="microservice-discovery-eureka-authenticating" />
         <module name="microservice-discovery-eureka-ha" />
         <module name="microservice-geteway-zuul" />
+        <module name="microservice-geteway-zuul-aggregation" />
+        <module name="microservice-geteway-zuul-fallback" />
         <module name="microservice-hystrix-dashboard" />
         <module name="microservice-hystrix-turbine" />
         <module name="microservice-hystrix-turbine-mq" />
@@ -44,6 +46,8 @@
       <module name="microservice-discovery-eureka-authenticating" target="1.8" />
       <module name="microservice-discovery-eureka-ha" target="1.8" />
       <module name="microservice-geteway-zuul" target="1.8" />
+      <module name="microservice-geteway-zuul-aggregation" target="1.8" />
+      <module name="microservice-geteway-zuul-fallback" target="1.8" />
       <module name="microservice-hystrix-dashboard" target="1.8" />
       <module name="microservice-hystrix-turbine" target="1.8" />
       <module name="microservice-hystrix-turbine-mq" target="1.8" />
