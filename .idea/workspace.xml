@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae54cbd8-4a22-42db-9ed3-0c1fb196e9a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/microservice-geteway-zuul-aggregation/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-geteway-zuul-aggregation/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-geteway-zuul-aggregation/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-geteway-zuul-aggregation/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-geteway-zuul-aggregation/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-geteway-zuul-aggregation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-geteway-zuul-aggregation/src/main/java/com/itmuch/cloud/AggregationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-geteway-zuul-aggregation/src/main/java/com/itmuch/cloud/AggregationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-geteway-zuul-aggregation/src/main/java/com/itmuch/cloud/MicroserviceGetewayZuulAggrApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-geteway-zuul-aggregation/src/main/java/com/itmuch/cloud/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-geteway-zuul-aggregation/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-geteway-zuul-aggregation/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-geteway-zuul-fallback/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-geteway-zuul-fallback/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-geteway-zuul-fallback/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-geteway-zuul-fallback/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-geteway-zuul-fallback/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-geteway-zuul-fallback/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-geteway-zuul-fallback/src/main/java/com/itmuch/cloud/MicroserviceGetewayZuulFallBackApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-geteway-zuul-fallback/src/main/java/com/itmuch/cloud/MyFallbackProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-geteway-zuul-fallback/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-geteway-zuul-fallback/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ae54cbd8-4a22-42db-9ed3-0c1fb196e9a0" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/microservice-simple-provider-user/target/" />
@@ -117,12 +88,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/microservice-geteway-zuul-aggregation/src/main/java/com/itmuch/cloud/AggregationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            <state relative-caret-position="435">
+              <caret line="53" column="39" lean-forward="true" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1442#1464#0" expanded="true" />
-                <element signature="e#1623#1624#0" expanded="true" />
                 <element signature="e#1661#1662#0" expanded="true" />
                 <element signature="e#1745#1746#0" expanded="true" />
                 <element signature="e#1797#1798#0" expanded="true" />
@@ -311,7 +281,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546410833550" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546414154560" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Boot/lbplatform" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -557,12 +527,12 @@
       <workItem from="1545875621897" duration="17546000" />
       <workItem from="1545960852583" duration="12715000" />
       <workItem from="1546048598119" duration="6998000" />
-      <workItem from="1546392229570" duration="10875000" />
+      <workItem from="1546392229570" duration="14304000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110464000" />
+    <option name="totallyTimeSpent" value="113893000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -575,7 +545,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.26972282" />
       <window_info id="Designer" order="1" />
@@ -588,7 +557,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.80490404" weight="0.3264642" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840257" visible="true" weight="0.39804772" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840257" weight="0.39804772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
@@ -1112,12 +1081,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-geteway-zuul-aggregation/src/main/java/com/itmuch/cloud/AggregationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        <state relative-caret-position="435">
+          <caret line="53" column="39" lean-forward="true" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1442#1464#0" expanded="true" />
-            <element signature="e#1623#1624#0" expanded="true" />
             <element signature="e#1661#1662#0" expanded="true" />
             <element signature="e#1745#1746#0" expanded="true" />
             <element signature="e#1797#1798#0" expanded="true" />
