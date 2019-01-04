@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: microservice-config-server
+  cloud:
+    config:
+      server:
+        git:
+          #仓库地址
+          #用户名
+          username: 597153059@qq.com
+          #密码
+          password: licheng3585629
+          uri: https://github.com/AllUserBegin/spring-cloud-config-repo.git

@@ -2,14 +2,13 @@ package com.itmuch.cloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
 @SpringBootApplication
-@EnableZuulProxy
-public class MicroserviceGetewayZuulFallBackApplication {
+
+public class MicroserviceConfigClientApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MicroserviceGetewayZuulFallBackApplication.class, args);
+        SpringApplication.run(MicroserviceConfigClientApplication.class, args);
     }
 
 }

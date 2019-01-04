@@ -24,6 +24,8 @@
         <module>microservice-geteway-zuul</module>
         <module>microservice-geteway-zuul-fallback</module>
         <module>microservice-geteway-zuul-aggregation</module>
+        <module>microservice-config-server</module>
+        <module>microservice-config-client-refresh</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

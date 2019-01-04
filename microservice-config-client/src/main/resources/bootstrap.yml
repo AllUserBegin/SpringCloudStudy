@@ -1,0 +1,12 @@
+spring:
+  application:
+    #对应 config server所获取的配置文件的{application}
+    name: microservice-foo
+  cloud:
+    config:
+      #配置服务地址
+      uri: http://localhost:8080/
+      #profile对应config server所获取的配置文件的{profile}
+      profile: dev
+      #指定仓库的分支，对应config.server所获取的配置文件的{label }
+      label: master
