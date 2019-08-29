@@ -58,6 +58,7 @@
 
   <!-- 添加spring-boot的maven插件 -->
   <build>
+    <finalName>provider-user</finalName>
     <plugins>
       <plugin>
         <groupId>org.springframework.boot</groupId>

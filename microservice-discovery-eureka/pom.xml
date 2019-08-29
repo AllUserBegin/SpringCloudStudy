@@ -25,6 +25,7 @@
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
     </dependency>
+
   </dependencies>
 
   <!-- 引入spring cloud的依赖 -->
@@ -40,12 +41,51 @@
     </dependencies>
   </dependencyManagement>
 
+
+
   <!-- 添加spring-boot的maven插件 -->
   <build>
+    <finalName>discovery-eureka</finalName>
+    <defaultGoal>compile</defaultGoal>
     <plugins>
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
+      </plugin>
+      <!--新增的docker maven插件-->
+      <plugin>
+        <groupId>com.spotify</groupId>
+        <artifactId>docker-maven-plugin</artifactId>
+        <version>0.4.13</version>
+        <!--docker镜像相关的配置信息-->
+        <configuration>
+          <!--镜像名，这里用工程名-->
+          <imageName>itmuch/microservice-discovery-eureka</imageName>
+          <!--TAG,这里用工程版本号-->
+          <imageTags>
+            <imageTag>0.0.1</imageTag>
+            <imageTag>latest</imageTag>
+          </imageTags>
+          <!-- 如需要重复构建相同标签名称的镜像，可将forceTags 设为true -->
+          <forceTags>true</forceTags>
+          <!--镜像的FROM，使用java官方镜像-->
+          <baseImage>java</baseImage>
+          <!--该镜像的容器启动后，直接运行spring boot工程-->
+          <entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
+
+          <!--<dockerHost>http://192.168.99.100:2375</dockerHost>-->
+          <!--构建镜像的配置信息-->
+          <resources>
+            <resource>
+              <targetPath>/</targetPath>
+              <directory>${project.build.directory}</directory>
+              <include>${project.build.finalName}.jar</include>
+            </resource>
+          </resources>
+          <!-- 与maven配置文件settings.xml 中配置的server.id一致，用于推送镜像 -->
+          <serverId>docker-hub</serverId>
+
+        </configuration>
       </plugin>
     </plugins>
   </build>

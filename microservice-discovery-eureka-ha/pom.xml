@@ -22,6 +22,14 @@
 
   <dependencies>
     <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-actuator</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-security</artifactId>
+    </dependency>
+    <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
     </dependency>
@@ -42,6 +50,7 @@
 
   <!-- 添加spring-boot的maven插件 -->
   <build>
+    <finalName>discovery-eureka-ha</finalName>
     <plugins>
       <plugin>
         <groupId>org.springframework.boot</groupId>

@@ -46,6 +46,7 @@
 
   <!-- 添加spring-boot的maven插件 -->
   <build>
+    <finalName>discovery-eureka-auth</finalName>
     <plugins>
       <plugin>
         <groupId>org.springframework.boot</groupId>

@@ -6,16 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="microservice-config-client" />
         <module name="microservice-config-client-refresh" />
         <module name="microservice-config-server" />
-        <module name="microservice-consumer-movie" />
-        <module name="microservice-consumer-movie-feign" />
         <module name="microservice-consumer-movie-feign-customizing" />
-        <module name="microservice-consumer-movie-feign-hystrix-fallback" />
-        <module name="microservice-consumer-movie-feign-hystrix-fallback-factory" />
-        <module name="microservice-consumer-movie-feign-hystrix-fallback-stream" />
-        <module name="microservice-consumer-movie-feign-logging" />
         <module name="microservice-consumer-movie-feign-manual" />
         <module name="microservice-consumer-movie-ribbon" />
         <module name="microservice-consumer-movie-ribbon-hystrix" />
@@ -23,25 +16,58 @@
         <module name="microservice-discovery-eureka" />
         <module name="microservice-discovery-eureka-authenticating" />
         <module name="microservice-discovery-eureka-ha" />
-        <module name="microservice-geteway-zuul" />
         <module name="microservice-geteway-zuul-aggregation" />
         <module name="microservice-geteway-zuul-fallback" />
         <module name="microservice-hystrix-dashboard" />
-        <module name="microservice-hystrix-turbine" />
         <module name="microservice-hystrix-turbine-mq" />
         <module name="microservice-provider-user" />
+        <module name="microservice-simple-consumer-movie" />
+        <module name="microservice-simple-provider-user" />
+      </profile>
+      <profile name="Annotation profile for microservice-consumer-movie-feign (1)" enabled="true">
+        <sourceOutputDir name="../microservice-consumer-movie-feign-logging/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../microservice-consumer-movie-feign-logging/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-consumer-movie-feign (1)" />
+      </profile>
+      <profile name="Annotation profile for microservice-consumer-movie-feign (4)" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-consumer-movie-feign-logging" />
+      </profile>
+      <profile name="Annotation profile for microservice-consumer-movie-feign (5)" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-consumer-movie-feign" />
+      </profile>
+      <profile name="Annotation profile for microservice-consumer-movie-feign (3)" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-consumer-movie-feign-hystrix-fallback" />
+      </profile>
+      <profile name="Annotation profile for microservice-consumer-movie-feign (2)" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-consumer-movie-feign-hystrix-fallback-stream" />
+      </profile>
+      <profile name="Annotation profile for microservice-parent" enabled="true">
+        <sourceOutputDir name="../microservice-geteway-zuul-aggregation/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../microservice-geteway-zuul-aggregation/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-geteway-zuul (3)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="com.itmuch.cloud" target="1.8" />
-      <module name="microservice-config-client" target="1.8" />
       <module name="microservice-config-client-refresh" target="1.8" />
       <module name="microservice-config-server" target="1.8" />
-      <module name="microservice-consumer-movie" target="1.8" />
       <module name="microservice-consumer-movie-feign" target="1.8" />
+      <module name="microservice-consumer-movie-feign (1)" target="1.8" />
       <module name="microservice-consumer-movie-feign-customizing" target="1.8" />
       <module name="microservice-consumer-movie-feign-hystrix-fallback" target="1.8" />
-      <module name="microservice-consumer-movie-feign-hystrix-fallback-factory" target="1.8" />
       <module name="microservice-consumer-movie-feign-hystrix-fallback-stream" target="1.8" />
       <module name="microservice-consumer-movie-feign-logging" target="1.8" />
       <module name="microservice-consumer-movie-feign-manual" target="1.8" />
@@ -51,31 +77,15 @@
       <module name="microservice-discovery-eureka" target="1.8" />
       <module name="microservice-discovery-eureka-authenticating" target="1.8" />
       <module name="microservice-discovery-eureka-ha" target="1.8" />
-      <module name="microservice-geteway-zuul" target="1.8" />
+      <module name="microservice-geteway-zuul (3)" target="1.8" />
       <module name="microservice-geteway-zuul-aggregation" target="1.8" />
       <module name="microservice-geteway-zuul-fallback" target="1.8" />
       <module name="microservice-hystrix-dashboard" target="1.8" />
-      <module name="microservice-hystrix-turbine" target="1.8" />
       <module name="microservice-hystrix-turbine-mq" target="1.8" />
+      <module name="microservice-parent" target="1.8" />
       <module name="microservice-provider-user" target="1.8" />
-      <module name="microservice-provider-user-with-auth" target="1.8" />
       <module name="microservice-simple-consumer-movie" target="1.8" />
       <module name="microservice-simple-provider-user" target="1.8" />
     </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="com.itmuch.cloud" options="-parameters" />
-      <module name="microservice-config-client" options="" />
-      <module name="microservice-config-server" options="" />
-      <module name="microservice-consumer-movie" options="" />
-      <module name="microservice-discovery-eureka" options="" />
-      <module name="microservice-geteway-zuul" options="" />
-      <module name="microservice-hystrix-dashboard" options="" />
-      <module name="microservice-hystrix-turbine" options="" />
-      <module name="microservice-provider-user" options="" />
-      <module name="microservice-simple-consumer-movie" options="" />
-      <module name="microservice-simple-provider-user" options="" />
-    </option>
   </component>
 </project>

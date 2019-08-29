@@ -15,7 +15,11 @@ public class UserController {
 
   @GetMapping("/{id}")
   public User findById(@PathVariable Long id) {
-    User findOne = this.userRepository.findOne(id);
-    return findOne;
+    //User findOne = this.userRepository.findOne(id);
+    User user=new User();
+    user.setId(id);
+    user.setAge(10);
+    user.setName(String.valueOf(id));
+    return user;
   }
 }
